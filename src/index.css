@@ -1,5 +1,44 @@
-body {
+.myLittlePixel{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  display: inline-block;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  
+}
+
+.myCanvas{
+  width: 800px;
+  height: 350px;
+  background: black;
+  padding: 20px;
+  font-size: 0px;
+}
+
+.myPallet{
+  width: 300px;
+  height: 150px;
+  background: grey;
+}
+
+.myPalletColor{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+.myCurrentColor{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  background: green;
+}
+
+.myPageLayout{
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
 }
