@@ -5,5 +5,6 @@ import PalletColorComponent from './PalletColorComponent';
 
 storiesOf('PalletComponent', module).add("Happy Path!", () =>
   <PalletComponent>
+    <PalletColorComponent />
   </PalletComponent>
 )

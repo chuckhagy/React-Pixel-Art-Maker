@@ -14,31 +14,46 @@
   background: black;
   padding: 20px;
   font-size: 0px;
+  display: inline-block;
 }
 
 .myPallet{
-  width: 300px;
+  width: 650px;
   height: 150px;
-  background: grey;
+  background: darkgrey;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px;
 }
 
 .myPalletColor{
   border-radius: 100%;
   width: 50px;
   height: 50px;
-  background: blue;
+  background-color: cornflowerblue;
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
 }
 
 .myCurrentColor{
   border-radius: 100%;
   width: 150px;
   height: 150px;
-  background: green;
+  background-color: green;
+}
+
+.currentBox{
+  background-color: grey;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .myPageLayout{
-  background-color: lightblue;
-  width: 100vw;
+  background-image: url('http://wallpaperbackgrounds.com/Content/wallpapers/pattern/artistic/207355-39755.jpg');
+  background-size: cover;
   height: 100vh;
-  padding: 100px;
+  padding: 5px;
+  text-align: center;
 }

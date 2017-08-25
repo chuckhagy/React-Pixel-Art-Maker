@@ -11,10 +11,8 @@ import PixelComponent from './PixelComponent';
 
 storiesOf('PageLayoutComponent', module).add("Happy Path!", () =>
   <PageLayoutComponent>
-    <PixelComponent />
     <CanvasComponent />
     <CurrentColorComponent />
-    <PalletColorComponent />
     <PalletComponent />
   </PageLayoutComponent>
 )
