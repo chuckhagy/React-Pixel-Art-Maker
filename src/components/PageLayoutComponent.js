@@ -1,43 +1,14 @@
 import React from 'react';
-import CanvasComponent from './CanvasComponent';
-import PalletComponent from './PalletComponent';
-import CurrentColorComponent from './CurrentColorComponent';
 
-export default function PageLayoutComponent({
-  recentColors,
-  currentColor,
-  setNewColor,
-  colorClicker,
-  colorBlind,
-  mouseDown,
-  mouseOver,
-  mouseState,
-  mouseUp
-}){
+export default function PageLayoutComponent(props){
   return(
     <div className="myPageLayout">
       <h1 className="topTitle">Show Me What You Got!</h1>
+      <div>{props.children[0]}</div>
       <div>
-        <CanvasComponent
-          currentColor={currentColor}
-          colorClicker={colorClicker}
-          colorBlind={colorBlind}
-          mouseDown={mouseDown}
-          mouseUp={mouseUp}
-          mouseOver={mouseOver}
-          mouseState={mouseState}
-        />
+        {props.children[1]}
+        {props.children[2]}
       </div>
-      <div>
-          <CurrentColorComponent
-            currentColor={currentColor}
-          />
-          <PalletComponent
-            recentColors={recentColors}
-            setNewColor={setNewColor}
-
-          />
-        </div>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import PageLayoutComponent from './components/PageLayoutComponent'
+import PixelArtPage from './components/PixelArtPage'
 
 let currentColor = 'black';
 let recentColors = ['white', 'black', 'blue', 'red', 'yellow', 'green', 'orange', 'purple', 'saddlebrown', 'firebrick', 'grey', 'indigo', 'deeppink', 'gold', 'lawngreen', 'lemonchiffon'];
@@ -43,7 +44,7 @@ function mouseOver(id){
 
 
 function render(){
-  ReactDOM.render(<PageLayoutComponent
+  ReactDOM.render(<PixelArtPage
     recentColors={recentColors}
     currentColor={currentColor}
     setNewColor={setNewColor}
