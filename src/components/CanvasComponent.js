@@ -12,18 +12,18 @@ export default function CanvasComponent({
   mouseState
 })
 {  
+  
     return(
     <div className="myCanvas">
       {colorBlind.map((thisColor, index) => <PixelComponent
         key={index}
         id={index}
-        style={{backgroundColor: thisColor, border: `1px solid ${thisColor}`}}
         colorClicker={colorClicker}
         mouseDown={mouseDown}
         mouseUp={mouseUp}
         mouseOver={mouseOver}
         mouseState={mouseState}
-
+        currentColor={currentColor}
 
 />)}
     </div>

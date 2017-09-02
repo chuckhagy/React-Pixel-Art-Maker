@@ -29,16 +29,19 @@ let mouseState = 0;
 
 function mouseDown(){
   mouseState = 1;
+  console.log("mouse is up")
+  render();
 }
 
 function mouseUp(){
   mouseState = 0;
+  render();
+
 }
 
 function mouseOver(id){
   if(mouseState){
     colorBlind[id] = currentColor;
-    render();
   }
 }
 
