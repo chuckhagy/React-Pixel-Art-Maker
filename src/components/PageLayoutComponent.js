@@ -3,11 +3,31 @@ import CanvasComponent from './CanvasComponent';
 import PalletComponent from './PalletComponent';
 import CurrentColorComponent from './CurrentColorComponent';
 
-export default function PageLayoutComponent({recentColors, currentColor, setNewColor}){
+export default function PageLayoutComponent({
+  recentColors,
+  currentColor,
+  setNewColor,
+  colorClicker,
+  colorBlind,
+  mouseDown,
+  mouseOver,
+  mouseState,
+  mouseUp
+}){
   return(
     <div className="myPageLayout">
-      <h1 className="topTitle">Let there be pixles!</h1>
-      <div>  <CanvasComponent /></div>
+      <h1 className="topTitle">Show Me What You Got!</h1>
+      <div>
+        <CanvasComponent
+          currentColor={currentColor}
+          colorClicker={colorClicker}
+          colorBlind={colorBlind}
+          mouseDown={mouseDown}
+          mouseUp={mouseUp}
+          mouseOver={mouseOver}
+          mouseState={mouseState}
+        />
+      </div>
       <div>
           <CurrentColorComponent
             currentColor={currentColor}

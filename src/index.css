@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Passion+One:regular,bold,italic&subset=latin,latin-ext');
 
+*{
+  margin: 0px;
+}
 
 .topTitle{
-  font-family: 'Courgette', sans-serif;
-  font-weight: 100;
+  font-family: 'Passion One', sans-serif;
   color: white;
-  margin: 3px;
+  text-shadow: 2px 2px 2px black;
+  margin: -5px auto 0 auto;
+  width: 820px;
+  padding: 10px;
+  font-size: 65px;
+  background-color: rgba(40, 40, 40, 0.6);
 }
 
 .myLittlePixel{
   width: 10px;
   height: 10px;
-  background-color: white;
   border: 1px solid lightgrey;
   display: inline-block;
   margin: 0;
@@ -20,22 +26,20 @@
 .myCanvas{
   width: 800px;
   height: 350px;
-  background: black;
+  background-color: rgba(40, 40, 40, 0.6);
   padding: 20px;
   font-size: 0px;
   display: inline-block;
-  box-shadow: 7px 7px 7px rgb(20, 20, 20);
   }
 
 .myPallet{
   width: 650px;
   height: 150px;
-  background: darkgrey;
+  background-color: rgba(40, 40, 40, 0.6);
   display: inline-block;
   vertical-align: top;
   text-align: left;
   padding: 10px;
-  box-shadow: 7px 7px 7px rgb(20, 20, 20);
 }
 
 .myPalletColor{
@@ -45,7 +49,7 @@
   background-color: cornflowerblue;
   display: inline-block;
   margin: 10px 15px 10px 15px;
-  box-shadow: 2px 2px 2px rgb(45, 45, 45);
+  box-shadow: 2px 2px 2px black;
   
 }
 
@@ -54,24 +58,54 @@
   width: 150px;
   height: 150px;
   background-color: green;
-  box-shadow: 2px 2px 2px rgb(45, 45, 45);
+  box-shadow: 2px 2px 2px black;
 
 }
 
 .currentBox{
-  background-color: grey;
+  background-color: rgba(40, 40, 40, 0.6);
   padding: 10px;
   display: inline-block;
   vertical-align: top;
-  box-shadow: 7px 7px 7px rgb(20, 20, 20);
   
 }
 
 .myPageLayout{
-  background-image: url('http://wallpaperbackgrounds.com/Content/wallpapers/pattern/artistic/207355-39755.jpg');
-  background-size: cover;
+  background-image: url('https://i.pinimg.com/originals/1f/8e/e1/1f8ee1d6a6fa838a27762afe556659e3.png');
+  background-size:cover;
   min-height: 100vh;
-  height:800px;
+  height:500px;
   padding: 5px;
   text-align: center;
+  background-position: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
