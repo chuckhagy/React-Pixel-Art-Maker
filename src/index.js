@@ -29,7 +29,6 @@ let mouseState = 0;
 
 function mouseDown(){
   mouseState = 1;
-  console.log("mouse is up")
   render();
 }
 
